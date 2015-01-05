@@ -1,5 +1,5 @@
-FROM ubuntu:13.10
-MAINTAINER Zaiste <oh [at] zaiste.net>
+FROM ubuntu:trusty
+MAINTAINER Taylor Etheredge taylor.etheredge@gmail.net
 
 ENV DEBIAN_FRONTEND noninteractive
 
