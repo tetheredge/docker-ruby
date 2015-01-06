@@ -16,7 +16,7 @@ RUN apt-get install -y software-properties-common && \
 	apt-get update
 
 # Install Ruby 2.1 package
-RUN apt-get install -y ruby2.1
+RUN apt-get install -y ruby2.1 ruby2.1-dev
 
 # Install bundler without the documenation and add gemrc file
 RUN /bin/bash -l -c "gem install bundler --no-rdoc --no-ri && \
