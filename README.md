@@ -3,9 +3,9 @@ docker-ruby
 
 Ruby (MRI) in a Docker container; based on Ubuntu Trusty (14.04.01 LTS) with Ruby 2.1 This is meant
 to be used as a foundation for Ruby applications, as this only contains Ruby. This ruby version is
-installed via Brightbox, to minize build the build time.
+installed via Brightbox, to minize the build time.
 
-More information can be found here (https://www.brightbox.com/docs/ruby/ubuntu/).
+More information can be found here (https://www.brightbox.com/docs/ruby/ubuntu/)
 
 Usage
 -----
