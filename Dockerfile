@@ -1,14 +1,14 @@
-FROM ubuntu:trusty
-MAINTAINER Taylor Etheredge <taylor.etheredge@gmail.net>
-VERSION 0.0.1
+FROM ubuntu:latest
+MAINTAINER Taylor Etheredge <taylor.etheredge@gmail.com>
+# VERSION 0.0.2
 
 # Ignore the APT warnings about not having a TTY
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get update
+RUN apt-get update -y
 RUN apt-get upgrade -y
 
-RUN apt-get install -y curl git-core
+RUN apt-get install -y build-essential libcurl3-gnutls curl git
 
 # Add Brightbox repository for Ruby package
 RUN apt-get install -y software-properties-common && \
